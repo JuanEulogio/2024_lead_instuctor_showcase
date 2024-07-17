@@ -22,6 +22,16 @@ module.exports = {
         },
       }),
     },
+
+    cursor: {
+      drawn: "url(/src/assets/cursor.png), default",
+    },
+
+    colors: {
+      'pastelSkin': '#F7ECDE',
+      'pastelBeige': '#E9DAC1',
+      'pastelTeal': '#9ED2C6',
+      'pastelStongTeal': '#54BAB9'    },
   },
   plugins: [],
 }

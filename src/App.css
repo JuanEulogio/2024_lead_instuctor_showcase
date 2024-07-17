@@ -1,0 +1,5 @@
+*,
+*:before,
+*:after {
+  @apply cursor-drawn;
+}
