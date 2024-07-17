@@ -1,4 +1,3 @@
-import './App.css';
 import Lottie from 'lottie-web';
 import { useEffect, useRef, useState } from 'react';
 
@@ -29,17 +28,17 @@ function App() {
   }, [])
 
 
-  return (<div>
+  return (<div className='bg-cyan-100'>
   
     {displayStatus=== "lottieStart" ?
 
-      <div className='centerContent' ref={container} style={{width:"100%"}}></div>
+      <div className='grid h-screen place-items-center' ref={container}></div>
     :
       
-      <div className='fade-in'>
-        <div className='centerContent'>
+      <div className='animate-fadeIn'>
+        <div className='grid h-screen place-items-center'>
 
-            <h1 >hello</h1>
+            <h1>hello</h1>
 
         </div>
       </div>
