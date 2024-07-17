@@ -13,7 +13,7 @@ function App() {
       loop: false,
       renderer: `svg`,
       autoplay: true,
-      animationData: require("./lotties/startingAnime.json")
+      animationData: require("./assets/lotties/startingAnime.json")
     })
 
     //on animation complete event
@@ -28,7 +28,7 @@ function App() {
   }, [])
 
 
-  return (<div className='bg-cyan-100'>
+  return (<div className='bg-pastelSkin cursor-drawn'>
   
     {displayStatus=== "lottieStart" ?
 
