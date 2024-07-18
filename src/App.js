@@ -1,5 +1,6 @@
 import Lottie from 'lottie-web';
 import { useEffect, useRef, useState } from 'react';
+import Card from './components/Card';
 
 function App() {
   const [displayStatus, setStatus]= useState("lottieStart")
@@ -36,9 +37,12 @@ function App() {
     :
       
       <div className='animate-fadeIn'>
+        <h1>Students Website Showcase</h1>
         <div className='grid h-screen place-items-center'>
 
-            <h1>hello</h1>
+          <Card img={"pointer"} title={"Exotic Car Shop"} header={"Card Header"} description={"Card Description"} link={"https://github.com/TwinkieMan22/Exotic-car-Market"} ></Card>
+          <Card img={"blogging"} title={"Blog Website"} header={"Card Header"} description={"Card Description"} link={"https://github.com/Chase-Nickel/react-blog"}></Card>
+
 
         </div>
       </div>
