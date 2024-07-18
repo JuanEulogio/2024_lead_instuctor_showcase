@@ -32,7 +32,13 @@ module.exports = {
       'pastelSkin': '#F7ECDE',
       'pastelBeige': '#E9DAC1',
       'pastelTeal': '#9ED2C6',
-      'pastelStongTeal': '#54BAB9'    },
+      'pastelStongTeal': '#54BAB9'
+    },
+    
+    fontFamily: {
+      'Architects-Daughter': ['"Architects Daughter"', 'cursive'],
+    },
+
   },
   plugins: [],
 }
