@@ -36,7 +36,7 @@ module.exports = {
     },
     
     fontFamily: {
-      'Architects-Daughter': ['"Architects Daughter"', 'cursive'],
+      'Patrick-Hand': ['"Patrick Hand"', 'cursive'],
     },
 
   },
