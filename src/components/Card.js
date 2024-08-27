@@ -30,7 +30,7 @@ export default function Card(props) {
 
             <p className="mt-4 text-sm sm:text-base"> {props.description} </p>
 
-            <p className="mt-8 font-bold">Read more</p>
+            <p className="mt-8 font-bold">read more</p>
           </div>
         </div>
       </a>
