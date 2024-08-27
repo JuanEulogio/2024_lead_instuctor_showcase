@@ -4,11 +4,7 @@ import { motion, useInView, useAnimation} from "framer-motion";
 export const Reveal = ({ children}) => {
     const ref = useRef(null)
     const isInView = useInView(ref, {amount: .5})
-    const mainControls= useAnimation()
 
-    // useEffect (() => {
-    //     if(isInView) mainControls.start("visible")
-    // }, [isInView])
 
     return (<div ref={ref} style={{position:"relative"}} >
         <motion.div
