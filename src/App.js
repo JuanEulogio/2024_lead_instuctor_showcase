@@ -77,8 +77,7 @@ function App() {
 
       <Reveal><h5 className='flex justify-center text-center font-Patrick-Hand text-4xl pb-56'>
       Dive into some of the projects crafted by my students!
-      They learned basic Web Development with tools like React JS, Bootstrap, and CSS!
-      Unfortunately it’s just a bit of the projects the students made. We had technical difficulties with the university laptops which had restrictions built on them.
+      They learned basic Web Development with tools like React JS, Bootstrap, and CSS
       </h5></Reveal>
 
 
@@ -108,11 +107,11 @@ function App() {
 
       </div>
       <Reveal><h5 className='flex justify-center text-center font-Patrick-Hand text-4xl pb-56'>
-          I let their imaginations run and let them build whatever they wanted.
-          In my eyes, letting them be creative and find that passion of curiosity in computer science 
-          is fundamental for their success in this field. I believe that curiosity is what will drive 
-          them even beyond the time I have with them, so I can create a bigger impact in the long term of their success.
-          </h5></Reveal>
+          I let them build whatever they wanted in order to empower their creativity.
+          In my eyes, letting them find that passion of curiosity in coding is fundamental
+          for their success in this field. I believe that curiosity is what will drive them
+          even beyond the time I have with them, so I can create a bigger impact in the long term of their success.
+      </h5></Reveal>
     </div>
     }
     
